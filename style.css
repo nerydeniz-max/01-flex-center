@@ -1,0 +1,26 @@
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} /* Si quitas esto te quedaria el container alineado a la izquierda en la parte superior*/
+
+.container {
+    width: 210px;
+    height: 210px;
+    background-color: skyblue;
+    border: 5px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red {
+    width: 70px;
+    height: 70px;
+    background-color: lightpink;
+    border: 5px solid red;
+    text-align: center;
+}
